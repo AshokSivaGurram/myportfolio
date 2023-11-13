@@ -5,27 +5,37 @@ body{
     text-align: center;
 }
 .image{
-    max-height: 150px;
-    max-width: 150px;
-    border-radius: 45%;
-    float: left;
+    height: 150px;
+    width: 150px;
+    border-radius: 5%;
+    float: right;
+    margin-right: 50px;
 .link{
     color: whitesmoke;
 }
 }
 .details{
-    text-align: left;
-    margin-left: 10px;
     border-radius: 5%;
     height: 250px;
     background-color: transparent;
-    color: whitesmoke;
-    display: flex;
     justify-content: left;
     margin: auto;
-    width: 500px;
-    place-content: center;
+    width: 800px;
+}
+.labels{
+    margin-left: 230px;
+    float: left;
     font-size: larger;
     font-style:initial;
     font-weight: bold;
+    color: whitesmoke;
+    text-align: left;
+}
+.content{
+    margin-left: 330px;
+    font-size: larger;
+    font-style:initial;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: left;
 }
