@@ -3,6 +3,7 @@ body{
     color: aliceblue;
     font-style:inherit;
     text-align: center;
+    margin: auto;
 }
 .image{
     height: 150px;
